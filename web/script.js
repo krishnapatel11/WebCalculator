@@ -95,6 +95,18 @@ document.addEventListener('DOMContentLoaded', function () {
             shouldResetScreen = true;
         }
     }
+    function handleOperator(nextOperator) {
+        if (nextOperator === 'sqrt') {
+            screen.value = Math.sqrt(parseFloat(currentInput));
+            firstValue = null;
+            operator = null;
+            currentInput = '';
+            shouldResetScreen = true;
+            return;
+        }
+    
+        // Existing operator handling code...
+    }
 
     function performCalculation(firstValue, secondValue, operator) {
         switch (operator) {
@@ -110,4 +122,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 return secondValue;
         }
     }
+
+    
+
+
 });
