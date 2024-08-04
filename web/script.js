@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
     
-        // Existing operator handling code...
     }
 
     function performCalculation(firstValue, secondValue, operator) {
