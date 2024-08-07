@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: 21.0.0.1 (Oracle Corporation)
+Main-Class: com.example.Main
+Class-Path: lib/some-library.jar lib/another-library.jar
+
+
